@@ -20,9 +20,8 @@ To transform a picture, follow these steps:
 
 Here are a few examples of the models I have trained and that are available in the git repository for the app
 <div align='center'>
-<img src =Images/Screen%20Shot%202019-04-23%20at%209.17.37%20AM.png height="200px"></a>
-<br>
-  <img src =Images/Screen%20Shot%202019-04-23%20at%209.26.30%20AM.png height="200px">
+<img src =Images/Screen%20Shot%202019-04-23%20at%209.26.30%20AM.png height="200px"></a>
+<br> 
   <img src =Images/Screen%20Shot%202019-04-23%20at%209.26.41%20AM.png height="200px">
   <img src =Images/Screen%20Shot%202019-04-23%20at%209.29.17%20AM.png height="200px">
   <img src =Images/Screen%20Shot%202019-04-23%20at%209.31.24%20AM.png height="200px">
