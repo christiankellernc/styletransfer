@@ -13,7 +13,7 @@ To transform a picture, follow these steps:
 - Click `SAVE` to save the resulting image to your photo library
 
 <div align='center'>
-<img src =Images/Screen%20Shot%202019-04-23%20at%209.17.37%20AM.png height="200px">
+<img src =Images/Screen%20Shot%202019-04-23%20at%209.17.37%20AM.png height="500px">
 </div>
 
 ## Results
