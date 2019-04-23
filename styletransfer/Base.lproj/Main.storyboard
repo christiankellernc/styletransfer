@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="styletransfer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zTh-da-qKf" userLabel="ImageView">
+                                <rect key="frame" x="7" y="141" width="400" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zTh-da-qKf" secondAttribute="height" multiplier="1:1" id="77H-rD-JEu"/>
+                                    <constraint firstAttribute="height" constant="400" id="9Cq-VL-3CH"/>
+                                    <constraint firstAttribute="width" constant="400" id="dLC-Po-fvl"/>
+                                </constraints>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gch-yk-hbl">
+                                <rect key="frame" x="0.0" y="769" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="SAVE" id="5BX-Mq-4Vz">
+                                        <connections>
+                                            <action selector="saveResult:" destination="BYZ-38-t0r" id="eUJ-hi-Uoi"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="323" style="plain" systemItem="fixedSpace" id="HFV-f1-HxX"/>
+                                    <barButtonItem systemItem="camera" id="I43-qd-s3X">
+                                        <connections>
+                                            <action selector="takePhoto:" destination="BYZ-38-t0r" id="vyR-Jc-lo7"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ot-Ja-bQr">
+                                <rect key="frame" x="144.5" y="619.5" width="125" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="TRANSFORM"/>
+                                <connections>
+                                    <action selector="transform:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qWe-Wq-yoR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zTh-da-qKf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-107" id="F0M-fH-VlY"/>
+                            <constraint firstItem="7ot-Ja-bQr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="190.5" id="I3m-l8-p6T"/>
+                            <constraint firstItem="7ot-Ja-bQr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nqs-mO-d9f"/>
+                            <constraint firstItem="zTh-da-qKf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vnJ-Xp-lXe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="ImageView" destination="zTh-da-qKf" id="01c-FH-hCk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+</document>

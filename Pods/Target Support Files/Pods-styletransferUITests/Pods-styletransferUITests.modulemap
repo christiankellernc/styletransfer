@@ -1,0 +1,6 @@
+framework module Pods_styletransferUITests {
+  umbrella header "Pods-styletransferUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

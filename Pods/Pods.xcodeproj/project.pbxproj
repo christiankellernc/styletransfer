@@ -1,0 +1,1173 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		85BC39D6CDA95239149F07B4B0FB7AAF /* Fritz */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 16B9C881CE82913667B5A9B4C48674AC /* Build configuration list for PBXAggregateTarget "Fritz" */;
+			buildPhases = (
+			);
+			dependencies = (
+				266ACE1AE7CF3B41C8CA7CCDD90846E2 /* PBXTargetDependency */,
+				E2D76909808381ED0125DCA13DA38F71 /* PBXTargetDependency */,
+			);
+			name = Fritz;
+		};
+		8C0F705D687220BD81883FA84F55C82D /* FritzVisionStyleModelPaintings */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0931D708F36BB7CCFB4E94E6A52984F0 /* Build configuration list for PBXAggregateTarget "FritzVisionStyleModelPaintings" */;
+			buildPhases = (
+			);
+			dependencies = (
+				E6FB8B93C4D49E82B5240F7F41B2A255 /* PBXTargetDependency */,
+			);
+			name = FritzVisionStyleModelPaintings;
+		};
+		E6C77D3E517B34B6616C62476B74A237 /* FritzBase */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F9E706AAA6752D753AD891329FC4B21D /* Build configuration list for PBXAggregateTarget "FritzBase" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = FritzBase;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		17A2D0A501D2A22066E4D06E13801C50 /* Pods-styletransfer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF78D7D8BB6F032C4FF17E11BEEE8BD /* Pods-styletransfer-dummy.m */; };
+		4346B4750007C036185A124C0F763111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		57FFC0335922CC9F810E46026E6D9DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		70A4F9E08913C580B554907CEFDFCFFD /* Pods-styletransferTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4767B13B699F0F3643F8757D8E751 /* Pods-styletransferTests-dummy.m */; };
+		727A4954B2032DD2C5A21B9CA95040A7 /* Pods-styletransfer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E4EF26D17ACFB60BAD6EF40B983E83 /* Pods-styletransfer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8657590D614229F8A91CC986F3C529CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D11FD614A5128BFB32659AABF5A4F1D6 /* Pods-styletransferUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEBCC651806325D037E3CBBF063C2A6 /* Pods-styletransferUITests-dummy.m */; };
+		E756039450A70BFE5146D6A90FEC3915 /* Pods-styletransferUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 159D851E8A6F309F43C29D0814870E0C /* Pods-styletransferUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E85188613AF9139058DEAE15F6D69B3C /* Pods-styletransferTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBB2F176AFE17150C290A7C820C274F /* Pods-styletransferTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C4E4724658A5ED57392F6AE4B5AB27E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6C77D3E517B34B6616C62476B74A237;
+			remoteInfo = FritzBase;
+		};
+		41604D15D809B1D72C029C3403CD9906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B0A4CCCF3ABE744020B0B04DA7B3733;
+			remoteInfo = "Pods-styletransfer";
+		};
+		5CC63145F177261D7E2F1D68656CC819 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85BC39D6CDA95239149F07B4B0FB7AAF;
+			remoteInfo = Fritz;
+		};
+		622CC70671E1FC6A25AC978FFEE318C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6C77D3E517B34B6616C62476B74A237;
+			remoteInfo = FritzBase;
+		};
+		747BCD456189E979F81B28F6CBCF9FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0F705D687220BD81883FA84F55C82D;
+			remoteInfo = FritzVisionStyleModelPaintings;
+		};
+		772BB1891DDC31AE488C0F95C9A67614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B0A4CCCF3ABE744020B0B04DA7B3733;
+			remoteInfo = "Pods-styletransfer";
+		};
+		99A4EC2953FB1002C460DC6F204BE955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0F705D687220BD81883FA84F55C82D;
+			remoteInfo = FritzVisionStyleModelPaintings;
+		};
+		F7947069C45F1A1E1B2AD76FB675907C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6C77D3E517B34B6616C62476B74A237;
+			remoteInfo = FritzBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EC4767B13B699F0F3643F8757D8E751 /* Pods-styletransferTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-styletransferTests-dummy.m"; sourceTree = "<group>"; };
+		142F9915D1BA8F088477D7F22F3DC5FB /* Pods-styletransferUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-styletransferUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		159D851E8A6F309F43C29D0814870E0C /* Pods-styletransferUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-styletransferUITests-umbrella.h"; sourceTree = "<group>"; };
+		15E8AA9E332B3B5129960794C8CC3C0A /* Pods-styletransfer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-styletransfer.debug.xcconfig"; sourceTree = "<group>"; };
+		274269CD108E0477E98801346B4220EE /* Fritz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fritz.framework; path = Frameworks/Fritz.framework; sourceTree = "<group>"; };
+		373FE54469D671EF1883B9D207A81225 /* Pods-styletransferTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-styletransferTests-Info.plist"; sourceTree = "<group>"; };
+		43AAEE748507F7D05598E51A4C6DDDED /* FritzVisionStyleModelPaintings.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FritzVisionStyleModelPaintings.xcconfig; sourceTree = "<group>"; };
+		4DCC9F29E2E0F3B833C48C06DC5E89D0 /* FritzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FritzCore.framework; path = Frameworks/FritzCore.framework; sourceTree = "<group>"; };
+		56851188D660E7F889310FCFDC34CEBB /* Pods-styletransferUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-styletransferUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		622EF15BC3A287944A2CFE38A1ED8719 /* FritzBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FritzBase.xcconfig; sourceTree = "<group>"; };
+		6CD56577C34A232EF833FBDEAD33500B /* Pods-styletransferUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-styletransferUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		82860CF48E9E49DCC1E9E723C3072430 /* Pods_styletransferTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_styletransferTests.framework; path = "Pods-styletransferTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E4EF26D17ACFB60BAD6EF40B983E83 /* Pods-styletransfer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-styletransfer-umbrella.h"; sourceTree = "<group>"; };
+		845690BCB88316539F98EDF8A6A1DCE7 /* Pods-styletransferTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-styletransferTests.release.xcconfig"; sourceTree = "<group>"; };
+		8566E8A2475F5FE88DF83836E029A782 /* Pods-styletransferTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-styletransferTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B9F46AFB46F6130C451D3431075A989 /* Pods-styletransfer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-styletransfer.modulemap"; sourceTree = "<group>"; };
+		8E0CD12BA9AC6B6819F7B4CA88BA2C8C /* CoreMLHelpers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMLHelpers.framework; path = Frameworks/CoreMLHelpers.framework; sourceTree = "<group>"; };
+		8EEBCC651806325D037E3CBBF063C2A6 /* Pods-styletransferUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-styletransferUITests-dummy.m"; sourceTree = "<group>"; };
+		924BEFD654680F5BDE993A0FB1F5D1C5 /* Pods-styletransfer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-styletransfer-frameworks.sh"; sourceTree = "<group>"; };
+		935A8274BB2DC343A2C894FD17A32E47 /* FritzManagedModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FritzManagedModel.framework; path = Frameworks/FritzManagedModel.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ECCED602E4EB772DA8DE1EA24E152D7 /* Pods-styletransferUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-styletransferUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AEDDFD58933E274CB914685DDFED2F79 /* Pods-styletransfer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-styletransfer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B26231D2F390ADA893DF2518DA01266E /* Pods-styletransferUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-styletransferUITests-Info.plist"; sourceTree = "<group>"; };
+		BB9E05651AF7395C9EEF39A1CD1C2AE5 /* Pods-styletransferTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-styletransferTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD5E9E3FDA8CFB16CBFD53BABE6EC89A /* Pods-styletransfer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-styletransfer.release.xcconfig"; sourceTree = "<group>"; };
+		BEADB191DEBB0CF984809C7D3FEB98ED /* Pods_styletransferUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_styletransferUITests.framework; path = "Pods-styletransferUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2528AD73931D31DC31ED124AA0374C7 /* Fritz.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fritz.xcconfig; sourceTree = "<group>"; };
+		C4912E282B8E08FC15DF01D5D6BA17F6 /* Pods_styletransfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_styletransfer.framework; path = "Pods-styletransfer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEBB2F176AFE17150C290A7C820C274F /* Pods-styletransferTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-styletransferTests-umbrella.h"; sourceTree = "<group>"; };
+		D0BC2D954D4D4756D3E731F6BC4D203E /* Pods-styletransfer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-styletransfer-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5F24514F01A389D4D1041868B58FA00 /* Pods-styletransfer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-styletransfer-Info.plist"; sourceTree = "<group>"; };
+		DFBCCA057D05520FECDEC7998F66EA71 /* FritzVisionStyleModelPaintings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FritzVisionStyleModelPaintings.framework; path = Frameworks/FritzVisionStyleModelPaintings.framework; sourceTree = "<group>"; };
+		E9DF8C4E7CB2F66592285C1861FF728B /* Pods-styletransferUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-styletransferUITests.modulemap"; sourceTree = "<group>"; };
+		ED947A43343CCE45894DB7A9D012752E /* FritzVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FritzVision.framework; path = Frameworks/FritzVision.framework; sourceTree = "<group>"; };
+		F61E71C8F962AEC4A0F4A3B84F696A62 /* Pods-styletransferTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-styletransferTests.modulemap"; sourceTree = "<group>"; };
+		FE33A00352E48BE2A9EC88F39DADECD2 /* Pods-styletransferTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-styletransferTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFF78D7D8BB6F032C4FF17E11BEEE8BD /* Pods-styletransfer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-styletransfer-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE72A3F3A2964EE5F2DC26DFBE6049E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4346B4750007C036185A124C0F763111 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D28E226D17D02EA5CBD1496B5BB8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8657590D614229F8A91CC986F3C529CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24C5BD6DB5D1134BD5335E022493110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FFC0335922CC9F810E46026E6D9DED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F632C66683F721F55671D53D614A53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				274269CD108E0477E98801346B4220EE /* Fritz.framework */,
+				4DCC9F29E2E0F3B833C48C06DC5E89D0 /* FritzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		136DF36599B456E81FE6C6A2CC187C1B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				11F632C66683F721F55671D53D614A53 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1913AF12F99BA1C3E87EA1A6207D7423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4912E282B8E08FC15DF01D5D6BA17F6 /* Pods_styletransfer.framework */,
+				82860CF48E9E49DCC1E9E723C3072430 /* Pods_styletransferTests.framework */,
+				BEADB191DEBB0CF984809C7D3FEB98ED /* Pods_styletransferUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E052F6B4A13499BD509E9869AD8F034 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				622EF15BC3A287944A2CFE38A1ED8719 /* FritzBase.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FritzBase";
+			sourceTree = "<group>";
+		};
+		26C013B7D8728ABD4C28BBA7E62323D4 /* Pods-styletransferUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9DF8C4E7CB2F66592285C1861FF728B /* Pods-styletransferUITests.modulemap */,
+				6CD56577C34A232EF833FBDEAD33500B /* Pods-styletransferUITests-acknowledgements.markdown */,
+				142F9915D1BA8F088477D7F22F3DC5FB /* Pods-styletransferUITests-acknowledgements.plist */,
+				8EEBCC651806325D037E3CBBF063C2A6 /* Pods-styletransferUITests-dummy.m */,
+				B26231D2F390ADA893DF2518DA01266E /* Pods-styletransferUITests-Info.plist */,
+				159D851E8A6F309F43C29D0814870E0C /* Pods-styletransferUITests-umbrella.h */,
+				56851188D660E7F889310FCFDC34CEBB /* Pods-styletransferUITests.debug.xcconfig */,
+				9ECCED602E4EB772DA8DE1EA24E152D7 /* Pods-styletransferUITests.release.xcconfig */,
+			);
+			name = "Pods-styletransferUITests";
+			path = "Target Support Files/Pods-styletransferUITests";
+			sourceTree = "<group>";
+		};
+		30A20D3D257C3ADFFCE6CF0927D926FE /* Pods-styletransferTests */ = {
+			isa = PBXGroup;
+			children = (
+				F61E71C8F962AEC4A0F4A3B84F696A62 /* Pods-styletransferTests.modulemap */,
+				FE33A00352E48BE2A9EC88F39DADECD2 /* Pods-styletransferTests-acknowledgements.markdown */,
+				8566E8A2475F5FE88DF83836E029A782 /* Pods-styletransferTests-acknowledgements.plist */,
+				0EC4767B13B699F0F3643F8757D8E751 /* Pods-styletransferTests-dummy.m */,
+				373FE54469D671EF1883B9D207A81225 /* Pods-styletransferTests-Info.plist */,
+				CEBB2F176AFE17150C290A7C820C274F /* Pods-styletransferTests-umbrella.h */,
+				BB9E05651AF7395C9EEF39A1CD1C2AE5 /* Pods-styletransferTests.debug.xcconfig */,
+				845690BCB88316539F98EDF8A6A1DCE7 /* Pods-styletransferTests.release.xcconfig */,
+			);
+			name = "Pods-styletransferTests";
+			path = "Target Support Files/Pods-styletransferTests";
+			sourceTree = "<group>";
+		};
+		36B8262B19F641BC54988A44F532FD2F /* Pods-styletransfer */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F46AFB46F6130C451D3431075A989 /* Pods-styletransfer.modulemap */,
+				AEDDFD58933E274CB914685DDFED2F79 /* Pods-styletransfer-acknowledgements.markdown */,
+				D0BC2D954D4D4756D3E731F6BC4D203E /* Pods-styletransfer-acknowledgements.plist */,
+				FFF78D7D8BB6F032C4FF17E11BEEE8BD /* Pods-styletransfer-dummy.m */,
+				924BEFD654680F5BDE993A0FB1F5D1C5 /* Pods-styletransfer-frameworks.sh */,
+				D5F24514F01A389D4D1041868B58FA00 /* Pods-styletransfer-Info.plist */,
+				83E4EF26D17ACFB60BAD6EF40B983E83 /* Pods-styletransfer-umbrella.h */,
+				15E8AA9E332B3B5129960794C8CC3C0A /* Pods-styletransfer.debug.xcconfig */,
+				BD5E9E3FDA8CFB16CBFD53BABE6EC89A /* Pods-styletransfer.release.xcconfig */,
+			);
+			name = "Pods-styletransfer";
+			path = "Target Support Files/Pods-styletransfer";
+			sourceTree = "<group>";
+		};
+		41E561B45FA9D79D67B8F480E5630AED /* FritzVisionStyleModelPaintings */ = {
+			isa = PBXGroup;
+			children = (
+				D5DBF7507286581098B1D5E7D3011F02 /* Frameworks */,
+				BADCFFDEF8EBB3F38B9A89C618CD1DF3 /* Support Files */,
+			);
+			name = FritzVisionStyleModelPaintings;
+			path = FritzVisionStyleModelPaintings;
+			sourceTree = "<group>";
+		};
+		5DA586CC4F72B3F156ADBCD22B1591A5 /* ManagedModel */ = {
+			isa = PBXGroup;
+			children = (
+				C717A8CB15CE866C850709742092AABE /* Frameworks */,
+			);
+			name = ManagedModel;
+			sourceTree = "<group>";
+		};
+		65EA4C3341AEDB93E0E12D222E14559D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82C1C54AAC2BFD9D3263B7AD1ADACE76 /* Fritz */,
+				D5D667F350447EB3A77C83241E3DFF23 /* FritzBase */,
+				41E561B45FA9D79D67B8F480E5630AED /* FritzVisionStyleModelPaintings */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66986F9427D757C44AE602064C658058 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E0CD12BA9AC6B6819F7B4CA88BA2C8C /* CoreMLHelpers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82C1C54AAC2BFD9D3263B7AD1ADACE76 /* Fritz */ = {
+			isa = PBXGroup;
+			children = (
+				BD169D8049BC49935E865466EB8A6649 /* Support Files */,
+			);
+			name = Fritz;
+			path = Fritz;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BADCFFDEF8EBB3F38B9A89C618CD1DF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43AAEE748507F7D05598E51A4C6DDDED /* FritzVisionStyleModelPaintings.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FritzVisionStyleModelPaintings";
+			sourceTree = "<group>";
+		};
+		BD169D8049BC49935E865466EB8A6649 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2528AD73931D31DC31ED124AA0374C7 /* Fritz.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Fritz";
+			sourceTree = "<group>";
+		};
+		C717A8CB15CE866C850709742092AABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				935A8274BB2DC343A2C894FD17A32E47 /* FritzManagedModel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9556D21FC9CDC12AF32267163F45823 /* CoreMLHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				66986F9427D757C44AE602064C658058 /* Frameworks */,
+			);
+			name = CoreMLHelpers;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				65EA4C3341AEDB93E0E12D222E14559D /* Pods */,
+				1913AF12F99BA1C3E87EA1A6207D7423 /* Products */,
+				FF6E7230266A431E5208E21883DDBC37 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D00A25768D6894FAD40A68B7F03A815C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED947A43343CCE45894DB7A9D012752E /* FritzVision.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5D667F350447EB3A77C83241E3DFF23 /* FritzBase */ = {
+			isa = PBXGroup;
+			children = (
+				136DF36599B456E81FE6C6A2CC187C1B /* Core */,
+				C9556D21FC9CDC12AF32267163F45823 /* CoreMLHelpers */,
+				5DA586CC4F72B3F156ADBCD22B1591A5 /* ManagedModel */,
+				1E052F6B4A13499BD509E9869AD8F034 /* Support Files */,
+				E843FD439A3C8371CDCD0AC3BF664840 /* Vision */,
+			);
+			name = FritzBase;
+			path = FritzBase;
+			sourceTree = "<group>";
+		};
+		D5DBF7507286581098B1D5E7D3011F02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFBCCA057D05520FECDEC7998F66EA71 /* FritzVisionStyleModelPaintings.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E843FD439A3C8371CDCD0AC3BF664840 /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				D00A25768D6894FAD40A68B7F03A815C /* Frameworks */,
+			);
+			name = Vision;
+			sourceTree = "<group>";
+		};
+		FF6E7230266A431E5208E21883DDBC37 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36B8262B19F641BC54988A44F532FD2F /* Pods-styletransfer */,
+				30A20D3D257C3ADFFCE6CF0927D926FE /* Pods-styletransferTests */,
+				26C013B7D8728ABD4C28BBA7E62323D4 /* Pods-styletransferUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6809684668DD26DA127B1F0899C3C1E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85188613AF9139058DEAE15F6D69B3C /* Pods-styletransferTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E979573991CECB636668C55EBEE74E13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E756039450A70BFE5146D6A90FEC3915 /* Pods-styletransferUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB104799375810D1B94ADDA0D5058DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727A4954B2032DD2C5A21B9CA95040A7 /* Pods-styletransfer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D1B13324E805A5EAE0E541E170DB1B9 /* Pods-styletransferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E090C04E927558A68007C5EF30A4924 /* Build configuration list for PBXNativeTarget "Pods-styletransferUITests" */;
+			buildPhases = (
+				E979573991CECB636668C55EBEE74E13 /* Headers */,
+				454B2902D25BF484213DAE6A8E7754E2 /* Sources */,
+				D9D28E226D17D02EA5CBD1496B5BB8FF /* Frameworks */,
+				7A9EBEC3DE6DFA823B8DBBB39A916A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CA2B91DB3DF0ADE8BC7C7C3D157336B /* PBXTargetDependency */,
+			);
+			name = "Pods-styletransferUITests";
+			productName = "Pods-styletransferUITests";
+			productReference = BEADB191DEBB0CF984809C7D3FEB98ED /* Pods_styletransferUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E295A560F11F65E92BA265503E78D1D /* Pods-styletransferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F3461FD6B65147E011803B8749701D4 /* Build configuration list for PBXNativeTarget "Pods-styletransferTests" */;
+			buildPhases = (
+				6809684668DD26DA127B1F0899C3C1E6 /* Headers */,
+				B1580E05D7CF8E37FD1D2EB0C5DE3072 /* Sources */,
+				CE72A3F3A2964EE5F2DC26DFBE6049E0 /* Frameworks */,
+				99F12534710EF7DA81A22B954400F6A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CAEBA3A2F4BC4253E8E2A0247427AB0 /* PBXTargetDependency */,
+			);
+			name = "Pods-styletransferTests";
+			productName = "Pods-styletransferTests";
+			productReference = 82860CF48E9E49DCC1E9E723C3072430 /* Pods_styletransferTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B0A4CCCF3ABE744020B0B04DA7B3733 /* Pods-styletransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F48D32DCFB868E6B1832EBD5009099 /* Build configuration list for PBXNativeTarget "Pods-styletransfer" */;
+			buildPhases = (
+				EBB104799375810D1B94ADDA0D5058DE /* Headers */,
+				6FA4D8B75CCB612EF6F3D41085F764DA /* Sources */,
+				F24C5BD6DB5D1134BD5335E022493110 /* Frameworks */,
+				E0D06986ECFEB8F8AF23E358D3D995E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837B0850C750D470F02D663F1720847D /* PBXTargetDependency */,
+				D20F787345FFA998B2071FB543D4624A /* PBXTargetDependency */,
+				E359063134928668DF972C14904F62F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-styletransfer";
+			productName = "Pods-styletransfer";
+			productReference = C4912E282B8E08FC15DF01D5D6BA17F6 /* Pods_styletransfer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1913AF12F99BA1C3E87EA1A6207D7423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85BC39D6CDA95239149F07B4B0FB7AAF /* Fritz */,
+				E6C77D3E517B34B6616C62476B74A237 /* FritzBase */,
+				8C0F705D687220BD81883FA84F55C82D /* FritzVisionStyleModelPaintings */,
+				7B0A4CCCF3ABE744020B0B04DA7B3733 /* Pods-styletransfer */,
+				5E295A560F11F65E92BA265503E78D1D /* Pods-styletransferTests */,
+				2D1B13324E805A5EAE0E541E170DB1B9 /* Pods-styletransferUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A9EBEC3DE6DFA823B8DBBB39A916A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F12534710EF7DA81A22B954400F6A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0D06986ECFEB8F8AF23E358D3D995E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		454B2902D25BF484213DAE6A8E7754E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11FD614A5128BFB32659AABF5A4F1D6 /* Pods-styletransferUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA4D8B75CCB612EF6F3D41085F764DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A2D0A501D2A22066E4D06E13801C50 /* Pods-styletransfer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1580E05D7CF8E37FD1D2EB0C5DE3072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A4F9E08913C580B554907CEFDFCFFD /* Pods-styletransferTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		266ACE1AE7CF3B41C8CA7CCDD90846E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzBase;
+			target = E6C77D3E517B34B6616C62476B74A237 /* FritzBase */;
+			targetProxy = F7947069C45F1A1E1B2AD76FB675907C /* PBXContainerItemProxy */;
+		};
+		837B0850C750D470F02D663F1720847D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fritz;
+			target = 85BC39D6CDA95239149F07B4B0FB7AAF /* Fritz */;
+			targetProxy = 5CC63145F177261D7E2F1D68656CC819 /* PBXContainerItemProxy */;
+		};
+		8CAEBA3A2F4BC4253E8E2A0247427AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-styletransfer";
+			target = 7B0A4CCCF3ABE744020B0B04DA7B3733 /* Pods-styletransfer */;
+			targetProxy = 772BB1891DDC31AE488C0F95C9A67614 /* PBXContainerItemProxy */;
+		};
+		9CA2B91DB3DF0ADE8BC7C7C3D157336B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-styletransfer";
+			target = 7B0A4CCCF3ABE744020B0B04DA7B3733 /* Pods-styletransfer */;
+			targetProxy = 41604D15D809B1D72C029C3403CD9906 /* PBXContainerItemProxy */;
+		};
+		D20F787345FFA998B2071FB543D4624A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzBase;
+			target = E6C77D3E517B34B6616C62476B74A237 /* FritzBase */;
+			targetProxy = 2C4E4724658A5ED57392F6AE4B5AB27E /* PBXContainerItemProxy */;
+		};
+		E2D76909808381ED0125DCA13DA38F71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzVisionStyleModelPaintings;
+			target = 8C0F705D687220BD81883FA84F55C82D /* FritzVisionStyleModelPaintings */;
+			targetProxy = 99A4EC2953FB1002C460DC6F204BE955 /* PBXContainerItemProxy */;
+		};
+		E359063134928668DF972C14904F62F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzVisionStyleModelPaintings;
+			target = 8C0F705D687220BD81883FA84F55C82D /* FritzVisionStyleModelPaintings */;
+			targetProxy = 747BCD456189E979F81B28F6CBCF9FDC /* PBXContainerItemProxy */;
+		};
+		E6FB8B93C4D49E82B5240F7F41B2A255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzBase;
+			target = E6C77D3E517B34B6616C62476B74A237 /* FritzBase */;
+			targetProxy = 622CC70671E1FC6A25AC978FFEE318C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C4A6E8A7CD265C947C6E51F49BB2EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2528AD73931D31DC31ED124AA0374C7 /* Fritz.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39696B568B157C07F82A38D6DC6D2509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 622EF15BC3A287944A2CFE38A1ED8719 /* FritzBase.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		419F54D2CAB30A5E00F46E74E6765C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E8AA9E332B3B5129960794C8CC3C0A /* Pods-styletransfer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-styletransfer/Pods-styletransfer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-styletransfer/Pods-styletransfer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		484D909F76F0239C160CD52C0345ADEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43AAEE748507F7D05598E51A4C6DDDED /* FritzVisionStyleModelPaintings.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EE7ED193640CA48CE99754E8E7D6CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 622EF15BC3A287944A2CFE38A1ED8719 /* FritzBase.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8445BE25DF56AD967E9D7C58B86DC9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845690BCB88316539F98EDF8A6A1DCE7 /* Pods-styletransferTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-styletransferTests/Pods-styletransferTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-styletransferTests/Pods-styletransferTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8C447FA6A8BE58B9C2BCF90C0B8A6567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43AAEE748507F7D05598E51A4C6DDDED /* FritzVisionStyleModelPaintings.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95963DE26CF2554C1C23B3E43DEBF346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9E05651AF7395C9EEF39A1CD1C2AE5 /* Pods-styletransferTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-styletransferTests/Pods-styletransferTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-styletransferTests/Pods-styletransferTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEA342D4A8BA48019B32294D53B690A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2528AD73931D31DC31ED124AA0374C7 /* Fritz.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B58AA1611BEBCCE08B876492707F8B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ECCED602E4EB772DA8DE1EA24E152D7 /* Pods-styletransferUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-styletransferUITests/Pods-styletransferUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-styletransferUITests/Pods-styletransferUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB54F90FDBA521108C199CE7DBB0EF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56851188D660E7F889310FCFDC34CEBB /* Pods-styletransferUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-styletransferUITests/Pods-styletransferUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-styletransferUITests/Pods-styletransferUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D9491808F98A57F9C9E6E98DD45CFC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5E9E3FDA8CFB16CBFD53BABE6EC89A /* Pods-styletransfer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-styletransfer/Pods-styletransfer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-styletransfer/Pods-styletransfer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0931D708F36BB7CCFB4E94E6A52984F0 /* Build configuration list for PBXAggregateTarget "FritzVisionStyleModelPaintings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484D909F76F0239C160CD52C0345ADEC /* Debug */,
+				8C447FA6A8BE58B9C2BCF90C0B8A6567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B9C881CE82913667B5A9B4C48674AC /* Build configuration list for PBXAggregateTarget "Fritz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4A6E8A7CD265C947C6E51F49BB2EE8 /* Debug */,
+				AEA342D4A8BA48019B32294D53B690A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F3461FD6B65147E011803B8749701D4 /* Build configuration list for PBXNativeTarget "Pods-styletransferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95963DE26CF2554C1C23B3E43DEBF346 /* Debug */,
+				8445BE25DF56AD967E9D7C58B86DC9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E090C04E927558A68007C5EF30A4924 /* Build configuration list for PBXNativeTarget "Pods-styletransferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB54F90FDBA521108C199CE7DBB0EF7E /* Debug */,
+				B58AA1611BEBCCE08B876492707F8B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F48D32DCFB868E6B1832EBD5009099 /* Build configuration list for PBXNativeTarget "Pods-styletransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419F54D2CAB30A5E00F46E74E6765C4D /* Debug */,
+				D9491808F98A57F9C9E6E98DD45CFC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E706AAA6752D753AD891329FC4B21D /* Build configuration list for PBXAggregateTarget "FritzBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE7ED193640CA48CE99754E8E7D6CB6 /* Debug */,
+				39696B568B157C07F82A38D6DC6D2509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
